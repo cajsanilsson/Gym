@@ -17,8 +17,8 @@ namespace Gym_Database
         //Creating connectionstring.
         string server = "localhost"; 
         string database = "Gym_Database"; 
-        string username = "root"; 
-        string password = "31e993BB"; 
+        string username = ""; 
+        string password = ""; 
 
         string connectionString = "";
 
@@ -42,7 +42,7 @@ namespace Gym_Database
                 "DATABASE=" + database + ";" +
                 "UID=" + username + ";" +
                 "PASSWORD=" + password + ";";
-            connectionString = "SERVER=localhost;DATABASE=Gym_Database;UID=root;PASSWORD=31e993BB;";
+            connectionString = "SERVER=localhost;DATABASE=Gym_Database;UID=;PASSWORD=;";
             
         }
 
